@@ -40,7 +40,7 @@ In `sql_queries.py`, DROP, CREATE and INSERT queries are defined. These are read
 
 The databases star schema consists of 1 fact table (`songplays`) and 4 dimension tables (`users`, `songs`, `artists` and `time`).
 
-![Schema(DB_diagram.jpeg)
+![Schema](https://github.com/pvrmj/data-modelling-with-postgres/blob/main/Db_diagram.jpeg)
 
 - songplays - records in log data associated with song plays
 `songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent`
